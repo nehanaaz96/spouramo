@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hoc{
+    color: #FFFFFF;
+    background-color: #8EC837;
+}
+.dos{
+    display: flex;
+    list-style: none;
+    float: left;
+    font-size: 14px;
+}
+.icon{
+  list-style: none;
+  display: inline;
+  padding: 0px 6px 0px 6px;
+}
+.text-1{
+    font-size: 18px;
+    /* margin-top: -20px; */
+}
+@media (max-width:768px) {
+    .dos{
+        margin-left: 10px;
+        margin-top:10px ;
+         padding-bottom: 10px;
+    }
+    .text-1{
+        font-size: 20px;
+        margin-top: -30px;
+    }
+}
+@media (max-width:425px){
+    .text-1{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+.hc  {
+    list-style: none;
+    font-size: 18px;
+}
+.hp{
+    font-size: 18px;
+    padding: 14px 16px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #8EC837;
+    background-color: aliceblue;
+    float: left;
+}
+.hp:hover{
+    background-color: #8EC837;
+    color: #FFFFFF;
+}
+/* @media (max-width:425px){
+   .hp{
+       float: none;
+   }
+   .hc{
+       font-size: 12px;
+   }
+} */
+.start{
+    background-image: url(image.png);
+    width: auto;
+    height: 700px;
+    opacity: 8;
+    z-index: -1;
+}
+.jc{
+    background-color: #8EC837;
+}
+.main{
+    margin-top: 100px;
+}
+.fs{
+    margin-top: 8rem;
+    font-size: 78px;
+}
+.cta{
+    background-color: #8EC837;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius:16px;
+    border: #fff 2px;
+    margin-top: 30px;
+    margin-right: 14px;
+}
+.cta:hover{
+    color: #8EC837;
+    background-color: #fff;
+ }
+.ctas{
+    background-color: #fff;
+    color: #8EC837;
+    padding: 10px 30px;
+    border-radius:16px;
+    border: #fff 2px;
+    margin-top: 30px;
+}
+.ctas:hover{
+    background-color: #8EC837;
+    color: #fff;
+}
+#interblock {
+    display: block;
+    position: relative;
+    margin: -50px 0 0 0;
+    z-index: 1;
+    text-align: center;
+}
+.sink::after{
+    opacity: .8;
+    z-index: -1;
+}
+/* .sink::after {
+    z-index: -1;
+  } */
+.sink::before:hover{
+    transform: scale(1.1);
+background-color: #8EC837;
+}
+.set{
+    background-image: url(image.png);
+    width: 100%;
+    height: 400px;
+}
+.set-text{
+    padding-top: 70px;
+}
+.set-fig{
+    font-size: 17px;
+    line-height:1.2rem;
+}
+.set-fig-1{
+    font-size: 17px;
+    line-height:1.2rem;
+}
+@media (max-width:768px) {
+    .set-fig-1{
+        padding-left: 70px;
+    }
+}
+@media (max-width:425px) {
+    .set{
+        width: 100%;
+        height: auto;
+    }
+    .set-fig-1{
+         width: 100%;
+    }
+    }
+.jink{
+    height: 200px;
+    width: 400px;
+    margin: 100px; 
+    z-index: -1;
+}
+.mb{
+    font-size: 18px;
+    color: #8EC837;
+    float: left;
+}
+.hd{
+    font-size: 18px;
+    padding: 20px 20px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #8EC837;
+    background-color: aliceblue;
+    float: left;
+}
+.hd:hover{
+    background-color: #8EC837;
+    color:aliceblue;
+}
+.meal{
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    padding-top: 80px;
+}
+.king{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+}
+.jk{
+color: #8EC837;
+}
+.link{
+    /* display: inline; */
+    background-color: #fff;
+    margin: 32px;
+    padding: 24px 30px 24px 30px;
+}
+.link:hover{
+    background-color: rgb(230, 235, 238);
+}
+@media (max-width:768px) {
+    .set-fig{
+        font-size: 18px;
+    }
+    .king{
+        height: 30px;
+        width: 30px;
+    }
+    .link{
+        padding: 32px 40px 32px 40px;
+        margin: 50px;
+    }
+    
+}
+/* @media (max-width:425px) {
+    .king{
+        justify-content:flex-start;
+    }
+    .link{
+        margin-right: 20rem;
+        padding-left: 10rem;
+    }
+} */
+.ring{
+    width: 350px;
+    height: 250px;
+}
+.hg{
+    background-color: rgb(230, 235, 238);
+}
+.rings{
+    background-image: url(image.png);
+    width: 100%;
+    height: 500px;
+}
+.gh{
+    position: relative;
+}
+.step-image::before{
+    content: " background:white;";
+    display: block;
+   position: absolute;
+   width: 700px;
+   height: 320px;
+   background-color: #fff;
+   margin:200px 350px 200px 400px;
+   padding-bottom: 10%;
+   transform: translate(-50%,-50%);
+   /* z-index: 1; */
+   bottom: -55%;
+   left:  20%;
+   justify-content: center;
+} 
+.step-image-box::before{
+display: block;
+/* position: absolute; */
+background-image: url(1.jpg);
+width: 100%;
+height: 100%;
+border-radius: 50%;
+margin: 100px;
+z-index: -1;
+}
+.wd{
+height: 220px;
+width: 350px;
+}
+.text-box{
+    width: 90%;
+    font-size: 18px;
+    justify-content: center;
+    /* text-align: center; */
+}
+.list-box{
+    float: left;
+}
+.fas{
+    border:5px #000;
+    list-style: none;
+    font-size: 14px;
+    /* word-wrap:initial; */
+    letter-spacing: .75px; 
+    padding-top:-10px;
+    padding-bottom: 10px;
+}
+.box{
+    border:5px #000 ;
+}
+.text{
+    font-size: 18px;
+    color: rgb(150, 142, 142);
+    /* margin-top: -20px; */
+}
+.icons{
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.fake{
+    font-size: 40px;
+    display: flex;
+    list-style: none; 
+}
+.icons{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.meet{
+    color: #8EC837;
+}
+.form-control{
+    background-color: rgb(150, 142, 142);
+    color: #FFFFFF;
+    border: none;
+    opacity: .8;
+}
+.hp{
+    /* background-color: #8EC837; */
+    /* opacity: 8; */
+ }
+ .hp:hover{
+     /* background-color: #000; */
+     /* color: #fff; */
+ }
+ .disk{
+     opacity: .8;
+    display: flex;
+    list-style: none;
+}
+ .disks{
+    padding: 0.5px 15px 0.5px 0px;
+}
+.makes{
+    height: 70px;
+    width: 70px   ;
+}
+.meets{
+   color: silver;
+   font-weight: bold;
+}
+.meets:hover{
+    color: #8EC837;
+}
+.make{
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: -20px;
+}
